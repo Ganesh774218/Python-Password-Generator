@@ -35,8 +35,7 @@ This password generator successfully achieves the goal of generating customizabl
 
 
 
-
-
+![Screenshot 2025-05-04 202232](https://github.com/user-attachments/assets/7a84bbec-b426-456b-af2d-c29cbf663807)
 
 
 
