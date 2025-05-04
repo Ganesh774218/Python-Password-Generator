@@ -1,0 +1,42 @@
+Overview:
+This code generates a random password based on user input specifying how many alphabets, numbers, and special characters the password should contain.
+
+Program summary - 
+1) Importing the (random module), which provides functions to generate random numbers and make random selections. This is essential for creating a random password.
+
+2) Defines three lists:
+   alphabets: Contains all lowercase and uppercase English letters.
+   number: Contains digits from 0 to 9.
+   specials: Contains a selection of special characters that can be used in the password.
+ 
+3) Asks the user to input how many alphabets, numbers, and special characters they want in their password.
+   input() returns a string, so int() converts the input to an integer.
+   These values determine the composition of the password.
+
+4) Initializes an empty list to hold the characters that will make up the password.
+
+5) Loops char_in_password times.
+   Each iteration:
+   Picks a random alphabet character from the alphabets list using random.choice().
+   Appends the chosen character to password_list.
+
+6) Loops number_in_password times.
+   Each iteration:
+   Picks a random number from the number list.
+   Converts the number to a string (since password characters are strings).
+   Appends it to password_list.
+
+7) Loops special_character times.
+   Each iteration:
+   Picks a random special character from the specials list.
+   Appends it to password_list.
+
+8) Shuffles the elements of password_list in place to randomize the order of characters.
+   This ensures the password is not predictable (e.g., all alphabets first, then numbers, then specials).
+
+9) Joins all the characters in password_list into a single string without any separator.
+   This forms the final password string.
+
+10) Prints the generated password inside square brackets for clarity.
+
+
